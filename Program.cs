@@ -33,6 +33,7 @@ namespace testMvcNoHttps
         {
             string url = "https://246gg84zg8.execute-api.us-west-2.amazonaws.com/prod/projects";
             var streamTask = client.GetStreamAsync(url);
+            //client.Dispose();
             Response repositories = await JsonSerializer.DeserializeAsync<Response>(await streamTask);
             return repositories.body.Items.OrderBy(o=>o.ProjectId).ToList();//LINQ
         }

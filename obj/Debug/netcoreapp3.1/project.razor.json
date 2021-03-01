@@ -14407,13 +14407,28 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/mau/git/test/testMvcNoHttps/Views/Test/Index.cshtml",
+      "TargetPath": "Views\\Test\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/mau/git/test/testMvcNoHttps/Views/_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/mau/git/test/testMvcNoHttps/Views/Test copy/Index.cshtml",
+      "TargetPath": "Views\\Test copy\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/mau/git/test/testMvcNoHttps/Views/Home/Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/mau/git/test/testMvcNoHttps/Views/Shared/Details.cshtml",
+      "TargetPath": "Views\\Shared\\Details.cshtml",
       "FileKind": "mvc"
     },
     {

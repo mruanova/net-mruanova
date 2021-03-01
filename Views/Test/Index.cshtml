@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "TEST";
+}
+<p>Welcome TEST</p>
+
+<p>username: @ViewBag.username</p>
+<p>items: @ViewBag.items</p>
+
+
+@model List<Item>
+@foreach(var item in Model)
+{
+    <p>
+        <a href="/@item.ProjectId">@item.ProjectId @item.Name</a> : @item.Website @item.Address @item.Position
+    </p>
+}

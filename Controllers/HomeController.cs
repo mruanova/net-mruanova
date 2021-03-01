@@ -21,15 +21,17 @@ namespace testMvcNoHttps.Controllers
         public IActionResult Index()
         {
             Task<List<Item>> t = testMvcNoHttps.Program.HttpGetResponse();
-
-            //Do alot of work
-
             t.Wait();
             List<Item> items = t.Result;
-
-            // Console.WriteLine(response);
             ViewBag.username = "mruanova";
             return View(items);
+        }
+
+        [HttpGet("{id}")]
+        public IActionResult Details(int id)
+        {
+            ViewBag.id = id;
+            return View();
         }
 
         public IActionResult Privacy()

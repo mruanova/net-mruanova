@@ -34,3 +34,6 @@
 /Users/mau/git/test/testMvcNoHttps/obj/Debug/netcoreapp3.1/testMvcNoHttps.pdb
 /Users/mau/git/test/testMvcNoHttps/obj/Debug/netcoreapp3.1/testMvcNoHttps.genruntimeconfig.cache
 /Users/mau/git/test/testMvcNoHttps/obj/Debug/netcoreapp3.1/testMvcNoHttps.csproj.CopyComplete
+/Users/mau/git/test/testMvcNoHttps/obj/Debug/netcoreapp3.1/Razor/Views/Test/Index.cshtml.g.cs
+/Users/mau/git/test/testMvcNoHttps/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Details.cshtml.g.cs
+/Users/mau/git/test/testMvcNoHttps/obj/Debug/netcoreapp3.1/Razor/Views/Basic/Index.cshtml.g.cs
